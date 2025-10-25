@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# 🌐 Shashank's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![ENS](https://img.shields.io/badge/ENS-shashankg.eth-1969FF?logo=ethereum)](https://shashankg.eth)
 
-Currently, two official plugins are available:
+Decentralized portfolio website hosted on IPFS and accessible via ENS domains
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Quick Access
 
-## React Compiler
+- 🌐 **Primary Domain**: [shashankg.eth](https://shashankg.eth) | [shashankg.eth.limo](https://shashankg.eth.limo)
+- 🌍 **IPFS Gateways**:
+  - [CID Gateway](https://ipfs.io/ipfs/bafybeid66qgvmu7etbq4yldqy6b66553o6qw3b556g566i5zj75lx6qb554tvi)
+  - [IPNS Gateway](https://ipfs.io/ipns/k51qzi5uqu5dg79jrztpvridovujsswlc6znwlh9diipigxpsgsn3eorlaust7)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🖥️ Modern React + TypeScript + Vite stack
+- 🌐 Decentralized hosting on IPFS
+- 🔗 ENS domain integration
+- 📱 Fully responsive design
+- ⚡ Optimized for performance
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Frontend**: React 18, TypeScript, Vite
+- **Styling**: Tailwind CSS
+- **Deployment**: IPFS, Pinata
+- **Domain**: ENS (.eth)
+- **Package Manager**: Bun
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🏗️ Local Development
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. **Prerequisites**
+   - Install [Bun](https://bun.sh/)
+   - Get a [Pinata](https://pinata.cloud/) account for IPFS pinning
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. **Setup**
+   ```bash
+   # Install dependencies
+   bun install
+   
+   # Start development server
+   bun run dev
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+<!-- # My personal portfolio hosted on IPFS with an Ethereum address .eth domain
+
+To access, visit [shashankg.eth](https://shashankg.eth) or [shashankg.eth.limo](https://shashankg.eth.limo)
+
+## Overview
+
+This project is a template for a website that uses React with TypeScript and Vite. It's also set up to publish to IPFS and IPNS using [Bun](https://bun.sh) and [Pinata](https://pinata.cloud/).
+
+## Setup
+
+1. Install [Bun](https://bun.sh)
+2. Install [Pinata](https://pinata.cloud/)
+3. Run `bun run dev`
+4. Run `bun run publish`
+
+## Altenate URLs
+
+[Gateway (CID)](https://ipfs.io/ipfs/bafybeid66qgvmu7etbq4yldqy6b66553o6qw3b556g566i5zj75lx6qb554tvi)
+[Gateway (IPNS)](https://ipfs.io/ipns/k51qzi5uqu5dg79jrztpvridovujsswlc6znwlh9diipigxpsgsn3eorlaust7)
+
+## License
+
+MIT -->
