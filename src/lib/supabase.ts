@@ -5,7 +5,7 @@ const supabaseUrl = supabaseConfig.url;
 const supabaseKey = supabaseConfig.key;
 
 if (!supabaseUrl || !supabaseKey) {
-  throw new Error('Missing Supabase environment variables. Please check your .env file.');
+  throw new Error('Missing Supabase environment variables. Please check your .env file. OK!');
 }
 
 

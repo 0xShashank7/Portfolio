@@ -3,6 +3,9 @@
 More comprehensive version at shenanigans.shoghisimon.ca/collection/css-rain-bg/
  */
 
+ html{
+  scroll-behavior: smooth;
+ }
  
 
 .containerDiv::after {

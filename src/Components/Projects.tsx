@@ -46,7 +46,7 @@ export default function Projects() {
     }, [])
 
     return (
-        <div id="projects" title="Featured Projects">
+        <div className="container mx-auto z-40 relative max-w-7xl px-6" id="projects" title="Featured Projects">
             <motion.h2
                 className="text-4xl font-bold mb-6 text-white relative inline-block"
             >Featured Projects</motion.h2>
