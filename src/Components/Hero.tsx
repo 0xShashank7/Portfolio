@@ -26,17 +26,17 @@ function Hero() {
                     </motion.div>
 
                     <motion.h1
-                        className="text-5xl md:text-7xl lg:text-8xl font-bold text-[#FEFEFA] mb-6 text-shadow-xl"
+                        className="text-5xl md:text-7xl lg:text-8xl font-bold text-[#fafafa] mb-6 text-shadow-xl"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.5 }}
-                        style={{ textShadow: "#fefefa 1px 1px 30px" }}
+                        style={{ textShadow: "#374151 1px 1px 10px" }}
                     >
                         Shashank Guntamukkala
                     </motion.h1>
 
                     <motion.h2
-                        className="text-lg md:text-xl font-bold text-[#fefefa] mb-2"
+                        className="text-lg md:text-xl font-bold text-[#f4f4f5] mb-2"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.6 }}

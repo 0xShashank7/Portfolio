@@ -57,8 +57,8 @@ export default function About() {
         <div className="container z-40 relative mx-auto px-6 max-w-7xl">
             <Section id="about" title="About Me">
                 <div className="bg-gray-800/70 rounded-2xl p-8 backdrop-blur-sm border border-gray-700/50 shadow-[1px_1px_10px_inset_#747bff] hover:shadow-[1px_1px_15px_inset_#747bff]   transition-all duration-500">
-                    <div className="flex justify-between items-center gap-8  ">
-                        <div className="w-3/5">
+                    <div className="flex justify-between items-center gap-8 flex-col xl:flex-row  ">
+                        <div className="w-full xl:w-3/5">
                             <p className="text-lg leading-relaxed mb-6 text-gray-100">
                                 I'm a <span className="font-bold text-[#FEFEFA]"> passionate developer</span> with a keen eye for design with detail and a
                                 love for creating efficient, scalable, and accessible

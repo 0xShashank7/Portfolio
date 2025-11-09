@@ -1,7 +1,7 @@
 function Footer() {
 
     return (
-        <footer className="border-t z-40 relative border-gray-800 backdrop-blur-[2px] py-12 mt-20 bg-linear-to-b from-gray-900/50 to-transparent">
+        <footer className="container mx-auto z-40 relative max-w-7xl px-6 border-t border-gray-800 backdrop-blur-[2px] py-12 mt-20 bg-linear-to-b from-gray-900/50 to-transparent">
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-4 gap-12 mb-12">
                     <div>
@@ -52,11 +52,6 @@ function Footer() {
                             ))}
                         </ul>
                     </div>
-                </div>
-                <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-                    <p className="text-gray-500 text-sm">
-                        &copy; {new Date().getFullYear()} Shashank. All rights reserved.
-                    </p>
                 </div>
             </div>
         </footer>

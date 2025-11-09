@@ -33,7 +33,7 @@ function Navigation() {
         className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? "backdrop-blur-xs py-3 shadow-xs" : "py-5"
             }`}
     >
-        <div className="container mx-auto px-6 flex max-w-7xl justify-between items-center">
+        <div className="container  mx-auto px-6 hidden xl:flex max-w-7xl justify-between items-center">
             <div className="hidden md:flex space-x-8 items-center">
                 {[
                     {
