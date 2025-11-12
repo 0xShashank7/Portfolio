@@ -74,6 +74,16 @@ export default function Projects() {
                                         animate={{ opacity: 1 }}
                                         transition={{ delay: 0.3 }}
                                     />
+                                    {project.status
+                                        &&
+                                        <div className="absolute top-3 right-2">
+
+                                            <motion.span
+                                                className="px-6 text-base font-mono py-1 shadow-[1px_1px_20px_inset_#747bff] border-2 backdrop-blur-3xl border-[#747bff] text-indigo-300 hover:shadow-[1px_1px_50px_inset_#747bff] rounded-full font-medium transition-all duration-300  hover:scale-125 scale-90"
+                                            >
+                                                {project.status}
+                                            </motion.span>
+                                        </div>}
                                     <div className="absolute inset-0 bg-linear-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out flex items-end p-4">
                                         <div className="space-y-2 w-full">
                                             <div className="flex flex-wrap gap-2">
