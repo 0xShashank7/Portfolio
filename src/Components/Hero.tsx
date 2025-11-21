@@ -59,13 +59,23 @@ function Hero() {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.3, delay: 0.8 }}
-                    className="relative z-40" >
+                    className="relative z-40 flex gap-4" >
+
                     <motion.a
                         href="#projects"
-                        className="px-8 py-4 shadow-[1px_1px_20px_inset_#747bff] border-2 backdrop-blur-3xl border-[#747bff] text-indigo-300 hover:shadow-[1px_1px_50px_inset_#747bff] rounded-lg font-medium transition-all duration-300  hover:scale-125 scale-90"
+                        className="px-8 py-4 shadow-[1px_1px_20px_inset_#747bff] border-2 backdrop-blur-3xl border-[#747bff] text-indigo-300 hover:shadow-[1px_1px_50px_inset_#747bff] rounded-lg font-medium transition-all duration-300  hover:scale-105 "
                     >
                         View My Work
                     </motion.a>
+
+                    <motion.a
+                        href="https://drive.google.com/file/d/1_lG8sR9FtZfX9iQnNdv8WZuoldIkj4I4/view"
+                        target="_blank"
+                        className="px-8 py-4 shadow-[1px_1px_20px_inset_#747bff] border-2 backdrop-blur-3xl border-[#747bff] text-indigo-300 hover:shadow-[1px_1px_50px_inset_#747bff] rounded-lg font-medium transition-all duration-300  hover:scale-105 "
+                    >
+                        Resume
+                    </motion.a>
+
                 </motion.div>
             </div>
 
