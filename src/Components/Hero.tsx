@@ -69,7 +69,7 @@ function Hero() {
                     </motion.a>
 
                     <motion.a
-                        href="https://drive.google.com/file/d/1_lG8sR9FtZfX9iQnNdv8WZuoldIkj4I4/view"
+                        href="https://drive.google.com/file/d/15LNPFLUnY_HJtSnuzDl7XabXM4Q6vVIb/view"
                         target="_blank"
                         className="px-8 py-4 shadow-[1px_1px_20px_inset_#747bff] border-2 backdrop-blur-3xl border-[#747bff] text-indigo-300 hover:shadow-[1px_1px_50px_inset_#747bff] rounded-lg font-medium transition-all duration-300  hover:scale-105 "
                     >
